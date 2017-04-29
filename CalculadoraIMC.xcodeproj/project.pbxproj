@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823231381E072CA000209CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823231371E072CA000209CB1 /* AppDelegate.swift */; };
+		8232313A1E072CA000209CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823231391E072CA000209CB1 /* ViewController.swift */; };
+		8232313D1E072CA000209CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8232313B1E072CA000209CB1 /* Main.storyboard */; };
+		8232313F1E072CA000209CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8232313E1E072CA000209CB1 /* Assets.xcassets */; };
+		823231421E072CA000209CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823231401E072CA000209CB1 /* LaunchScreen.storyboard */; };
+		8232314A1E074C6D00209CB1 /* VistaResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823231491E074C6D00209CB1 /* VistaResultados.swift */; };
+		823231691E075BA700209CB1 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232314E1E075BA700209CB1 /* Icon-App-20x20@1x.png */; };
+		8232316A1E075BA700209CB1 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232314F1E075BA700209CB1 /* Icon-App-20x20@2x.png */; };
+		8232316B1E075BA700209CB1 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231501E075BA700209CB1 /* Icon-App-20x20@3x.png */; };
+		8232316C1E075BA700209CB1 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231511E075BA700209CB1 /* Icon-App-29x29@1x.png */; };
+		8232316D1E075BA700209CB1 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231521E075BA700209CB1 /* Icon-App-29x29@2x.png */; };
+		8232316E1E075BA700209CB1 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231531E075BA700209CB1 /* Icon-App-29x29@3x.png */; };
+		8232316F1E075BA700209CB1 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231541E075BA700209CB1 /* Icon-App-40x40@1x.png */; };
+		823231701E075BA700209CB1 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231551E075BA700209CB1 /* Icon-App-40x40@2x.png */; };
+		823231711E075BA700209CB1 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231561E075BA700209CB1 /* Icon-App-40x40@3x.png */; };
+		823231721E075BA700209CB1 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231571E075BA700209CB1 /* Icon-App-57x57@1x.png */; };
+		823231731E075BA700209CB1 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231581E075BA700209CB1 /* Icon-App-57x57@2x.png */; };
+		823231741E075BA700209CB1 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231591E075BA700209CB1 /* Icon-App-60x60@1x.png */; };
+		823231751E075BA700209CB1 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315A1E075BA700209CB1 /* Icon-App-60x60@2x.png */; };
+		823231761E075BA700209CB1 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315B1E075BA700209CB1 /* Icon-App-60x60@3x.png */; };
+		823231771E075BA700209CB1 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315C1E075BA700209CB1 /* Icon-App-72x72@1x.png */; };
+		823231781E075BA700209CB1 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315D1E075BA700209CB1 /* Icon-App-72x72@2x.png */; };
+		823231791E075BA700209CB1 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315E1E075BA700209CB1 /* Icon-App-76x76@1x.png */; };
+		8232317A1E075BA700209CB1 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8232315F1E075BA700209CB1 /* Icon-App-76x76@2x.png */; };
+		8232317B1E075BA700209CB1 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231601E075BA700209CB1 /* Icon-App-76x76@3x.png */; };
+		8232317C1E075BA700209CB1 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231611E075BA700209CB1 /* Icon-App-83.5x83.5@2x.png */; };
+		8232317D1E075BA700209CB1 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231621E075BA700209CB1 /* Icon-Small-50x50@1x.png */; };
+		8232317E1E075BA700209CB1 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823231631E075BA700209CB1 /* Icon-Small-50x50@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		823231341E072CA000209CB1 /* CalculadoraIMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculadoraIMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823231371E072CA000209CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823231391E072CA000209CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8232313C1E072CA000209CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8232313E1E072CA000209CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823231411E072CA000209CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823231431E072CA000209CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823231491E074C6D00209CB1 /* VistaResultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultados.swift; sourceTree = "<group>"; };
+		8232314E1E075BA700209CB1 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@1x.png"; path = "AppIcon.appiconset/Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		8232314F1E075BA700209CB1 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@2x.png"; path = "AppIcon.appiconset/Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		823231501E075BA700209CB1 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@3x.png"; path = "AppIcon.appiconset/Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		823231511E075BA700209CB1 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@1x.png"; path = "AppIcon.appiconset/Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		823231521E075BA700209CB1 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		823231531E075BA700209CB1 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@3x.png"; path = "AppIcon.appiconset/Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		823231541E075BA700209CB1 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@1x.png"; path = "AppIcon.appiconset/Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		823231551E075BA700209CB1 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@2x.png"; path = "AppIcon.appiconset/Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		823231561E075BA700209CB1 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@3x.png"; path = "AppIcon.appiconset/Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		823231571E075BA700209CB1 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-57x57@1x.png"; path = "AppIcon.appiconset/Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		823231581E075BA700209CB1 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-57x57@2x.png"; path = "AppIcon.appiconset/Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		823231591E075BA700209CB1 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@1x.png"; path = "AppIcon.appiconset/Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		8232315A1E075BA700209CB1 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "AppIcon.appiconset/Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		8232315B1E075BA700209CB1 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "AppIcon.appiconset/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		8232315C1E075BA700209CB1 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-72x72@1x.png"; path = "AppIcon.appiconset/Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		8232315D1E075BA700209CB1 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-72x72@2x.png"; path = "AppIcon.appiconset/Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		8232315E1E075BA700209CB1 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@1x.png"; path = "AppIcon.appiconset/Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		8232315F1E075BA700209CB1 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@2x.png"; path = "AppIcon.appiconset/Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		823231601E075BA700209CB1 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@3x.png"; path = "AppIcon.appiconset/Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		823231611E075BA700209CB1 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-83.5x83.5@2x.png"; path = "AppIcon.appiconset/Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		823231621E075BA700209CB1 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50x50@1x.png"; path = "AppIcon.appiconset/Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		823231631E075BA700209CB1 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50x50@2x.png"; path = "AppIcon.appiconset/Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		8233B3A31EB4BA63005DF09E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8233B3A41EB4BA63005DF09E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8233B3A61EB4BA9D005DF09E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8233B3A71EB4CADF005DF09E /* ca-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ca-ES"; path = "ca-ES.lproj/Main.strings"; sourceTree = "<group>"; };
+		8233B3A81EB4CADF005DF09E /* ca-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ca-ES"; path = "ca-ES.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823231311E072CA000209CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8232312B1E072CA000209CB1 = {
+			isa = PBXGroup;
+			children = (
+				8232314B1E075BA700209CB1 /* Icons */,
+				823231361E072CA000209CB1 /* CalculadoraIMC */,
+				823231351E072CA000209CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823231351E072CA000209CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823231341E072CA000209CB1 /* CalculadoraIMC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823231361E072CA000209CB1 /* CalculadoraIMC */ = {
+			isa = PBXGroup;
+			children = (
+				823231371E072CA000209CB1 /* AppDelegate.swift */,
+				823231391E072CA000209CB1 /* ViewController.swift */,
+				823231491E074C6D00209CB1 /* VistaResultados.swift */,
+				8232313B1E072CA000209CB1 /* Main.storyboard */,
+				8232313E1E072CA000209CB1 /* Assets.xcassets */,
+				823231401E072CA000209CB1 /* LaunchScreen.storyboard */,
+				823231431E072CA000209CB1 /* Info.plist */,
+			);
+			path = CalculadoraIMC;
+			sourceTree = "<group>";
+		};
+		8232314B1E075BA700209CB1 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8232314E1E075BA700209CB1 /* Icon-App-20x20@1x.png */,
+				8232314F1E075BA700209CB1 /* Icon-App-20x20@2x.png */,
+				823231501E075BA700209CB1 /* Icon-App-20x20@3x.png */,
+				823231511E075BA700209CB1 /* Icon-App-29x29@1x.png */,
+				823231521E075BA700209CB1 /* Icon-App-29x29@2x.png */,
+				823231531E075BA700209CB1 /* Icon-App-29x29@3x.png */,
+				823231541E075BA700209CB1 /* Icon-App-40x40@1x.png */,
+				823231551E075BA700209CB1 /* Icon-App-40x40@2x.png */,
+				823231561E075BA700209CB1 /* Icon-App-40x40@3x.png */,
+				823231571E075BA700209CB1 /* Icon-App-57x57@1x.png */,
+				823231581E075BA700209CB1 /* Icon-App-57x57@2x.png */,
+				823231591E075BA700209CB1 /* Icon-App-60x60@1x.png */,
+				8232315A1E075BA700209CB1 /* Icon-App-60x60@2x.png */,
+				8232315B1E075BA700209CB1 /* Icon-App-60x60@3x.png */,
+				8232315C1E075BA700209CB1 /* Icon-App-72x72@1x.png */,
+				8232315D1E075BA700209CB1 /* Icon-App-72x72@2x.png */,
+				8232315E1E075BA700209CB1 /* Icon-App-76x76@1x.png */,
+				8232315F1E075BA700209CB1 /* Icon-App-76x76@2x.png */,
+				823231601E075BA700209CB1 /* Icon-App-76x76@3x.png */,
+				823231611E075BA700209CB1 /* Icon-App-83.5x83.5@2x.png */,
+				823231621E075BA700209CB1 /* Icon-Small-50x50@1x.png */,
+				823231631E075BA700209CB1 /* Icon-Small-50x50@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823231331E072CA000209CB1 /* CalculadoraIMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823231461E072CA000209CB1 /* Build configuration list for PBXNativeTarget "CalculadoraIMC" */;
+			buildPhases = (
+				823231301E072CA000209CB1 /* Sources */,
+				823231311E072CA000209CB1 /* Frameworks */,
+				823231321E072CA000209CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculadoraIMC;
+			productName = CalculadoraIMC;
+			productReference = 823231341E072CA000209CB1 /* CalculadoraIMC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8232312C1E072CA000209CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ai2-upv";
+				TargetAttributes = {
+					823231331E072CA000209CB1 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ES5F8E7C9U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8232312F1E072CA000209CB1 /* Build configuration list for PBXProject "CalculadoraIMC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8232312B1E072CA000209CB1;
+			productRefGroup = 823231351E072CA000209CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823231331E072CA000209CB1 /* CalculadoraIMC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823231321E072CA000209CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823231771E075BA700209CB1 /* Icon-App-72x72@1x.png in Resources */,
+				823231421E072CA000209CB1 /* LaunchScreen.storyboard in Resources */,
+				823231791E075BA700209CB1 /* Icon-App-76x76@1x.png in Resources */,
+				8232313F1E072CA000209CB1 /* Assets.xcassets in Resources */,
+				823231731E075BA700209CB1 /* Icon-App-57x57@2x.png in Resources */,
+				823231711E075BA700209CB1 /* Icon-App-40x40@3x.png in Resources */,
+				8232316B1E075BA700209CB1 /* Icon-App-20x20@3x.png in Resources */,
+				823231751E075BA700209CB1 /* Icon-App-60x60@2x.png in Resources */,
+				8232316C1E075BA700209CB1 /* Icon-App-29x29@1x.png in Resources */,
+				8232316A1E075BA700209CB1 /* Icon-App-20x20@2x.png in Resources */,
+				8232316F1E075BA700209CB1 /* Icon-App-40x40@1x.png in Resources */,
+				823231761E075BA700209CB1 /* Icon-App-60x60@3x.png in Resources */,
+				823231701E075BA700209CB1 /* Icon-App-40x40@2x.png in Resources */,
+				823231781E075BA700209CB1 /* Icon-App-72x72@2x.png in Resources */,
+				823231741E075BA700209CB1 /* Icon-App-60x60@1x.png in Resources */,
+				8232317B1E075BA700209CB1 /* Icon-App-76x76@3x.png in Resources */,
+				8232316E1E075BA700209CB1 /* Icon-App-29x29@3x.png in Resources */,
+				8232317A1E075BA700209CB1 /* Icon-App-76x76@2x.png in Resources */,
+				8232317E1E075BA700209CB1 /* Icon-Small-50x50@2x.png in Resources */,
+				8232313D1E072CA000209CB1 /* Main.storyboard in Resources */,
+				8232317D1E075BA700209CB1 /* Icon-Small-50x50@1x.png in Resources */,
+				823231691E075BA700209CB1 /* Icon-App-20x20@1x.png in Resources */,
+				8232316D1E075BA700209CB1 /* Icon-App-29x29@2x.png in Resources */,
+				8232317C1E075BA700209CB1 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				823231721E075BA700209CB1 /* Icon-App-57x57@1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823231301E072CA000209CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8232313A1E072CA000209CB1 /* ViewController.swift in Sources */,
+				823231381E072CA000209CB1 /* AppDelegate.swift in Sources */,
+				8232314A1E074C6D00209CB1 /* VistaResultados.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8232313B1E072CA000209CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8232313C1E072CA000209CB1 /* Base */,
+				8233B3A31EB4BA63005DF09E /* es */,
+				8233B3A61EB4BA9D005DF09E /* en */,
+				8233B3A71EB4CADF005DF09E /* ca-ES */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		823231401E072CA000209CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823231411E072CA000209CB1 /* Base */,
+				8233B3A41EB4BA63005DF09E /* es */,
+				8233B3A81EB4CADF005DF09E /* ca-ES */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823231441E072CA000209CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823231451E072CA000209CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823231471E072CA000209CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ES5F8E7C9U;
+				INFOPLIST_FILE = CalculadoraIMC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upv.ai2.CalculadoraIMC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		823231481E072CA000209CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ES5F8E7C9U;
+				INFOPLIST_FILE = CalculadoraIMC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upv.ai2.CalculadoraIMC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8232312F1E072CA000209CB1 /* Build configuration list for PBXProject "CalculadoraIMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823231441E072CA000209CB1 /* Debug */,
+				823231451E072CA000209CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823231461E072CA000209CB1 /* Build configuration list for PBXNativeTarget "CalculadoraIMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823231471E072CA000209CB1 /* Debug */,
+				823231481E072CA000209CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8232312C1E072CA000209CB1 /* Project object */;
+}

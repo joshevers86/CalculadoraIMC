@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IHR-CJ-B5b"; */
+"IHR-CJ-B5b.text" = "Label";
+
+/* Class = "UILabel"; text = "Altura (cm)"; ObjectID = "L7t-6u-PLA"; */
+"L7t-6u-PLA.text" = "Height (cm)";
+
+/* Class = "UILabel"; text = "Tú IMC"; ObjectID = "MZu-QY-y6R"; */
+"MZu-QY-y6R.text" = "Your BMI";
+
+/* Class = "UILabel"; text = "Calculadora IMC"; ObjectID = "SUr-Sy-Rlj"; */
+"SUr-Sy-Rlj.text" = "BMI Calculator";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cKZ-PA-Lmw"; */
+"cKZ-PA-Lmw.text" = "Label";
+
+/* Class = "UILabel"; text = "Peso (Kg)"; ObjectID = "hUe-Ja-y7O"; */
+"hUe-Ja-y7O.text" = "Weight (Kg)";
+
+/* Class = "UIButton"; normalTitle = "Calcular"; ObjectID = "mDH-qT-ptA"; */
+"mDH-qT-ptA.normalTitle" = "Calculate";
